@@ -177,6 +177,10 @@ color: var(--accent-color);
     padding-bottom: 94px;
 }
 
+.pluses {
+    padding-bottom: 0px;
+}
+
 .hero-title {
     width: 696px;
     text-align: center;
@@ -226,8 +230,6 @@ color: var(--accent-color);
 .pluses-item {
     display: flex;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .pluses-item .pluses-list {
@@ -257,15 +259,6 @@ margin-right: 0;
  {list-style: none;
 }
 
-.job-title {
-    margin-bottom: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    color: var(--primary-title-color);
-    font-size: 36px;
-    line-height: 1.16;
-}
 .job-images {
     display: flex;
     align-items: center;
@@ -280,8 +273,9 @@ margin-right: 0;
 
 .section-title {
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    color: var(--primary-title-color);
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
 }
 
@@ -295,7 +289,6 @@ margin-right: 0;
 .team-item {
     display: flex;
     align-items: center;
-    padding-bottom: 94px;
 }
 
 .team-item .team-list {
@@ -327,9 +320,6 @@ margin-right: 0;
     background-color: #F5F4FA;
 }
 
-.filter-section {
-    margin-top: 0;
-}
 .filter-item {
     display: flex;
     margin-bottom: 50px;
@@ -393,6 +383,10 @@ border-right: 1px solid #eeeeee;
     margin-bottom: 30px;
 }
 
+.works .work-list:nth-child(n+7) 
+{
+    margin-bottom: 0px;
+}
 .works .workinfo {
     padding: 20px 24px;
 }
