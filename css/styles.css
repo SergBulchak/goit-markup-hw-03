@@ -18,13 +18,6 @@ h1, h2, h3, p, ul {
     margin-top: 0;
     margin-bottom: 0;}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--primary-background-color);
-    letter-spacing: 0.03em;
-    font-size: 14px;
-}
 html {
     box-sizing: border-box;
 }
@@ -33,6 +26,19 @@ html {
 *::after,
 *::before {
     box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container {
@@ -170,11 +176,7 @@ color: var(--accent-color);
 
 .hero {
     background-color: var(--secondary-background-color);
-   
-}
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+   padding: 200px 0px;
 }
 
 .pluses {
